@@ -1,1 +1,2 @@
-# Computer Aided Circuit Design
+# EECE643   
+Computer Aided Circuit Design

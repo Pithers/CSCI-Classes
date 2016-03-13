@@ -1,3 +1,4 @@
 #Class Work
 
-This repo contains various programming work from classes.
+This repo contains various  programming samples from classes.
+

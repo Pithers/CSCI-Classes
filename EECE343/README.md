@@ -1,1 +1,3 @@
-# Class in VHDL
+# EECE343
+Intro to VHDL
+

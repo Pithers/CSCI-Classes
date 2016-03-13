@@ -1,1 +1,2 @@
-# Advanced Embedded Systems
+# EECE637
+Advanced Embedded Systems

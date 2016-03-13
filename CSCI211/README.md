@@ -1,2 +1,3 @@
-# CSCI211-Brandon-Smith
-This is a private repo for CSCI211 created for Brandon Smith
+# CSCI211
+Programming and Algorithims 2 Class
+
