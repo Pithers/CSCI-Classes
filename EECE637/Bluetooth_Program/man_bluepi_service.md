@@ -1,10 +1,10 @@
-#bluepi_service- Bluetooth Pairing Service for Raspberry Pi
+# bluepi_service- Bluetooth Pairing Service for Raspberry Pi
 
-Synopsis:
+## Synopsis:
 	#include <bluepi.h>
 	int bluepi_service(uint8_t channel);
 
-Description:
+## Description:
 	bluepi_service() creates an sdp channel and binds to an rfcomm socket.
 	The function blocks until it recieves a verified connection. On a connection request from another bluetooth 
 	device it searches through the file "bluetooth_ids" and compares the connecting device's bluetooth address
@@ -13,12 +13,12 @@ Description:
 	"bluetooth_ids" the connection to the connecting device is terminated and the service continues
 	to wait for another connection.
 
-Parameters:
+## Parameters:
 	uint8_t channel
 		see http://www.spectrumwiki.com/wiki/DisplayEntry.aspx?DisplyId=127 for a list of acceptable channel numbers (0 to 78)
 		Each channel operates at a different frequency in the 2.4 GHz band.
 	
-Return Value:
+## Return Value:
 	On success, a socket descriptor to a servicable device is returned.
 	On failure, a negative number is returned as follows:
 		-1: Failed to create sdp channel
@@ -26,14 +26,14 @@ Return Value:
 		-3: Failed to bind bluetooth socket
 		-4: Failed to open "bluetooth_ids" file
 
-Notes:
+## Notes:
 	Connecting to multiple devices may be problematic. Creating multiple sdp channels and sockets
 	does not seem to allow multiple devices to connect. 
 	When compiling, you must use the -lbluetooth option to link to the bluetooth library.
 
-Examples:
+## Examples:
 
-#include "bluepi.h"
+'''#include "bluepi.h"
 
 int main()
 {
@@ -78,4 +78,4 @@ int main()
 	close(s);
 
 return 0;
-}
+}'''
