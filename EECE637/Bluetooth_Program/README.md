@@ -1,17 +1,17 @@
 # bluepi_service- Bluetooth Pairing Service for Raspberry Pi
 
-## Synopsis:
+## Functions:
 	#include <bluepi.h>
 	int bluepi_service(uint8_t channel);
 
 ## Description:
-	bluepi_service() creates an sdp channel and binds to an rfcomm socket.
-	The function blocks until it recieves a verified connection. On a connection request from another bluetooth 
-	device it searches through the file "bluetooth_ids" and compares the connecting device's bluetooth address
-	to those in the file. If the connecting address is located in the file then a socket is esablished
-	between the devices and a socket descriptor is returned. If the connecting device is not in
-	"bluetooth_ids" the connection to the connecting device is terminated and the service continues
-	to wait for another connection.
+bluepi_service() creates an sdp channel and binds to an rfcomm socket.
+The function blocks until it recieves a verified connection. On a connection request from another bluetooth 
+device it searches through the file "bluetooth_ids" and compares the connecting device's bluetooth address
+to those in the file. If the connecting address is located in the file then a socket is esablished
+between the devices and a socket descriptor is returned. If the connecting device is not in
+"bluetooth_ids" the connection to the connecting device is terminated and the service continues
+to wait for another connection.
 
 ## Parameters:
 	uint8_t channel
