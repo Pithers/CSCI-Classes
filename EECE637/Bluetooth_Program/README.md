@@ -14,22 +14,22 @@ between the devices and a socket descriptor is returned. If the connecting devic
 to wait for another connection.
 
 ## Parameters:
-	uint8_t channel
-		see http://www.spectrumwiki.com/wiki/DisplayEntry.aspx?DisplyId=127 for a list of acceptable channel numbers (0 to 78)
-		Each channel operates at a different frequency in the 2.4 GHz band.
+uint8_t channel
+see http://www.spectrumwiki.com/wiki/DisplayEntry.aspx?DisplyId=127 for a list of acceptable channel numbers (0 to 78)
+Each channel operates at a different frequency in the 2.4 GHz band.
 	
 ## Return Value:
-	On success, a socket descriptor to a servicable device is returned.
-	On failure, a negative number is returned as follows:
-		-1: Failed to create sdp channel
-		-2: Failed to create bluetooth socket
-		-3: Failed to bind bluetooth socket
-		-4: Failed to open "bluetooth_ids" file
+On success, a socket descriptor to a servicable device is returned.
+On failure, a negative number is returned as follows:
+	-1: Failed to create sdp channel
+	-2: Failed to create bluetooth socket
+	-3: Failed to bind bluetooth socket
+	-4: Failed to open "bluetooth_ids" file
 
 ## Notes:
-	Connecting to multiple devices may be problematic. Creating multiple sdp channels and sockets
-	does not seem to allow multiple devices to connect. 
-	When compiling, you must use the -lbluetooth option to link to the bluetooth library.
+Connecting to multiple devices may be problematic. Creating multiple sdp channels and sockets
+does not seem to allow multiple devices to connect. 
+When compiling, you must use the -lbluetooth option to link to the bluetooth library.
 
 ## Examples:
 
