@@ -1,4 +1,4 @@
-# bluepi_service- Bluetooth Pairing Service for Raspberry Pi
+# BluePi Service- Bluetooth Pairing Service for Raspberry Pi
 
 ## Functions:
 	#include <bluepi.h>
