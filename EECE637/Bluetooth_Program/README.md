@@ -33,7 +33,7 @@ When compiling, you must use the -lbluetooth option to link to the bluetooth lib
 
 ## Examples:
 
-'''c++
+```c++
 #include "bluepi.h"
 
 int main()
@@ -80,4 +80,4 @@ int main()
 
 return 0;
 }
-'''
+```
