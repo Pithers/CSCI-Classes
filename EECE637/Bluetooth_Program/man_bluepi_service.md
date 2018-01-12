@@ -1,5 +1,4 @@
-Name:
-	bluepi_service - start a bluetooth service
+#bluepi_service- Bluetooth Pairing Service for Raspberry Pi
 
 Synopsis:
 	#include <bluepi.h>
