@@ -7,6 +7,8 @@ This repo contains various programming samples from classes.
 
 [VGA interface for Altera Cyclone 2 Dev board](https://github.com/Pithers/Class-Work/tree/master/EECE343)
 
+[Artificial Neural Network in C](https://github.com/Pithers/Class-Work/tree/master/CSCI580)
+
 ## WebGL examples:
 
 [WebGL 3d Engine v2](http://www.ecst.csuchico.edu/~bsmith83/Assignment6/assignment6.html)
