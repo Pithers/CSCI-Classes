@@ -4,6 +4,7 @@ This repo contains various programming samples from classes.
 
 ## Specific Projects
 [Bluetooth pairing service for Raspberry Pi](https://github.com/Pithers/Class-Work/tree/master/EECE637/Bluetooth_Program)
+
 [VGA interface for Altera Cyclone 2 Dev board](https://github.com/Pithers/Class-Work/tree/master/EECE343)
 
 ## WebGL examples:
