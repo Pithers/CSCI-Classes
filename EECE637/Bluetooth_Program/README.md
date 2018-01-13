@@ -21,10 +21,14 @@ Each channel operates at a different frequency in the 2.4 GHz band.
 ## Return Value:
 On success, a socket descriptor to a servicable device is returned.
 On failure, a negative number is returned as follows:
-	-1: Failed to create sdp channel
-	-2: Failed to create bluetooth socket
-	-3: Failed to bind bluetooth socket
-	-4: Failed to open "bluetooth_ids" file
+
+-1: Failed to create sdp channel
+	
+-2: Failed to create bluetooth socket
+	
+-3: Failed to bind bluetooth socket
+	
+-4: Failed to open "bluetooth_ids" file
 
 ## Notes:
 Connecting to multiple devices may be problematic. Creating multiple sdp channels and sockets
