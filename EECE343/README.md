@@ -2,9 +2,9 @@
   Intro to VHDL
 
 ## Lab1
-  Board level switch to led connection.
+  Board level switch to LED connection.
 ## Lab2
-  Board level switch to led hex display.
+  Board level switch to LED hex display.
 ## Lab3
   Two eight segment displays.
 ## Lab4
