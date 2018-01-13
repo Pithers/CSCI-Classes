@@ -2,6 +2,8 @@
 
 This repo contains various programming samples from classes.
 
+A lot of documentation is missing due to me either uploading this years ago when I had a lack of judgement, or me losing access to Chico State's class pages for each subject. 
+
 ## Specific Projects
 [Bluetooth pairing service for Raspberry Pi](https://github.com/Pithers/Class-Work/tree/master/EECE637/Bluetooth_Program)
 
