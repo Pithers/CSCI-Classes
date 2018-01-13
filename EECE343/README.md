@@ -1,5 +1,5 @@
 # EECE343
-  Intro to VHDL
+  Development for VGA slot machine game through Altera's Cyclone 2 FPGA development board.
 
 ## Lab1
   Board level switch to LED connection.
