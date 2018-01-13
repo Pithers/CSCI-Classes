@@ -9,6 +9,8 @@ This repo contains various programming samples from classes.
 
 [Artificial Neural Network in C](https://github.com/Pithers/Class-Work/tree/master/CSCI580)
 
+[Mario AI Project (repository unavailable :(](https://www.youtube.com/watch?v=xQdDWyG6utY)
+
 ## WebGL examples:
 
 [WebGL 3d Engine v2](http://www.ecst.csuchico.edu/~bsmith83/Assignment6/assignment6.html)
